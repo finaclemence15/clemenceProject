@@ -26,18 +26,29 @@ article{
     /* padding: 10px; */
     width: 65%;
     height: 500px;
-    background-color: white;
+    /* background-image: url("http://www.dailywaffle.co.uk/wp-content/uploads/2018/09/accounting-achievement-aerial-1043506-678x381.jpg"); */
+    /* background-repeat:no-repeat; */
 }
-/* ul and li style */
-ul{
-    /* list-style-type: none; */
+#des {
+    text-align: center;
+    color: grey;
+    font-size: 30px;
+}
+h2{
+    color:grey;
+    text-align: center;
+    font-size: 50px;
+}
+/* ul and li style  */
+ /* ul{
+    list-style-type: none; 
     margin: 0 auto;
     padding: 0;
     max-width: 960px;
     position: relative;
     height: 100%;
-    overflow:auto;
-}
+    overflow:auto; 
+}  */
 ul li{
     display: block;
 }
@@ -63,13 +74,14 @@ ul li a:hover{
 }
 /* image style */
 img{
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 180px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 600px){
