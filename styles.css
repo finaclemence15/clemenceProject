@@ -8,7 +8,7 @@
 /* h1 style */
 #head1 {
     background-color: blueviolet;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     font: 30px;
 
@@ -17,7 +17,7 @@
 nav{
     float: left;
     width: 35%;
-    height: 500px;
+    height: 700px;
     background: grey;
     /* padding: 20px; */
 }
@@ -25,7 +25,8 @@ article{
     float: right;
     /* padding: 10px; */
     width: 65%;
-    height: 500px;
+    height: 700px;
+    background-color: cadetblue;
     /* background-image: url("http://www.dailywaffle.co.uk/wp-content/uploads/2018/09/accounting-achievement-aerial-1043506-678x381.jpg"); */
     /* background-repeat:no-repeat; */
 }
@@ -83,49 +84,32 @@ img{
     margin-top: 100px;
     background-color: rgba(0, 0, 0, 0.6);
 }
-/* footer styles */
+/* footer styles  */
 .footer{
-    text-align:center;
     color:white;
-    width:100%;
-    background-size: cover;
-    margin-bottom:auto;
+    margin-top: 100px;
+    
+}
+#symbol{
+    color: black;
+    font-size: 25px;
 }
 .fa {
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     width: 20px;
-    text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+    
   }
   
   .fa:hover {
       opacity: 0.7;
   }
   
-  .fa-facebook {
-    background: #3B5998;
+  .fa-facebook,  .fa-twitter, .fa-youtube,  .fa-instagram{
     color: white;
   }
   
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-
 @media (max-width: 600px){
     nav, article {
         width: 100%;
