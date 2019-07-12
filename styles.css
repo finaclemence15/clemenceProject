@@ -1,0 +1,23 @@
+/* h1 style */
+#head1 {
+    background-color: blueviolet;
+    padding: 30px;
+    text-align: center;
+    font: 30px;
+
+}
+/* nav style */
+nav{
+    float: left;
+    width: 35%;
+    height: 500px;
+    background: grey;
+    /* padding: 20px; */
+}
+article{
+    float: right;
+    /* padding: 10px; */
+    width: 65%;
+    height: 500px;
+    background-color: aqua;
+}
