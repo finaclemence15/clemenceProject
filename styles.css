@@ -28,11 +28,22 @@ article{
     height: 700px;
     background-color: gainsboro;
     }
+    .info{
+        background-color: rgb(216, 206, 226);
+        font-family: 'Abel'; font-size: 20px;
+    }
 #des {
     text-align: center;
     color: grey;
     font-size: 30px;
     margin-top: 70px;
+}
+#des1{
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: -250px;   
 }
 /* styling button */
 #more{
@@ -45,7 +56,7 @@ article{
   width:35%;
   font-size:18px;
   border-radius: 15px; 
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 50px;
 }
 h2{
