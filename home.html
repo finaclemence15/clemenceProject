@@ -6,8 +6,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -19,24 +23,104 @@
 <body>
   <div class="container-fluide">
     <div class="jumbotron">
-      <h1 id="hd1"><b> Hello! Am Clemence</b></h1>
+    <!--Navigation & Intro-->
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-offset="100">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" data-offset="100">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works" data-offset="100">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-offset="100">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      <!-- <h1 id="hd1"><b> Hello! Am Clemence</b></h1> -->
+      <!--  -->
+      <div class="mask rgba-white-strong">
+          <div class="container h-100 d-flex justify-content-center align-items-center">
+              <div class="row smooth-scroll">
+                  <div class="col-md-12 pt-3">
+                      <div class="white-text text-center pt-5">
+                          <h1 class="display-2 mb-4 dark-grey-text wow fadeIn" id="hd1">Hello! Am Clemence</h1>
+                         
+                          <a href="#about1" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s" data-offset="100"><i class="fas fa-angle-down" aria-hidden="true"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--  -->
       <!-- <img src="images/myPic.jpg" alt=""> -->
+      
     </div>
-    <div class="section">
+    <div class="section" id="about1">
       <img src="images/myPic.jpg" alt="myImage" id="img"><br>
       <h1 id="about">About Me</h1>
       <p id="aboutme"> I am AIMEE CLEMENCE, I hold a Bachelor's degree in business and information communication
         technology from MOUNT KENYA KIGALI campus. <br>
         Am a girl who like programming since when i started my high school especially when i was in A level, <br>
-        At that time i started loving programming courses because i faund that programming is really good when you
-        learned it.</p>
+        At that time i started loving programming courses because i found that programming is really good when you
+        learned it. <br>
+       <b> Now am Full Stack Web Developer. </b></p>
     </div> <br> <br>
-    <h2>My Project</h2> <br>
+    <h2>My Skills</h2> <br>
+    <div class="row">
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/html5.jpg"  alt="Image" style="width:100%" >
+          </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/css.jpg" alt="Image" style="width:100%">
+          </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/js.jpg"  alt="Image" style="width:100%">
+          </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/angular.png" class="img-thumbnail photo img-responsive" alt="Image" 
+          >
+          </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/django.jpg"alt="Image" style="width:100%" 
+          >
+          </div>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <div class="card">
+          <img src="images/python.jpg"  alt="Image" style="width:100%"   >
+          </div>
+      </div>
+    </div>
+    <h2>My Projects</h2> <br>
     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div style="border-style: outset;">
           <h3><strong>Gallery </strong></h3>
-          <img src="images/gallery.png" class="img-thumbnail photo img-responsive" alt="Image" data-toggle="modal"
+          <img src="images/gallery.png" class="img-thumbnail photo img-responsive" alt="Image" 
             height="600px" width="600px">
           <a href="https://clemgallery1.herokuapp.com/" style="text-decoration: none;text-align: center">
             <p>View Project</p>
@@ -47,7 +131,7 @@
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div style="border-style: outset;">
           <h3><strong>Awwards </strong></h3>
-          <img src="images/awwards.png" class="img-thumbnail photo img-responsive" alt="Image" data-toggle="modal"
+          <img src="images/awwards.png" class="img-thumbnail photo img-responsive" alt="Image" 
             height="600px" , width="600px">
           <a href="https://clemyawwards999.herokuapp.com/" style="text-decoration: none;text-align: center">
             <p>View Project</p>
@@ -57,7 +141,7 @@
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div style="border-style: outset;">
           <h3><strong>Pitch </strong></h3>
-          <img src="images/pitch.png" class="img-thumbnail photo img-responsive" alt="Image" data-toggle="modal"
+          <img src="images/pitch.png" class="img-thumbnail photo img-responsive" alt="Image" 
             height="600px" , width="600px">
           <a href="https://mypitchheroku.herokuapp.com/" style="text-decoration: none;text-align: center">
             <p>View Project</p>
@@ -79,11 +163,14 @@
       </div>
     </div> 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
 </body>
 
 </html>
