@@ -1,8 +1,16 @@
 .jumbotron{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/mack.jpeg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/mack.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 600px;
+}
+body{min-height:200vh;}
+.navbar-dark{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-dark.scrolled{
+  background:#000;
 }
 #hd1, i{
     text-align: center;
@@ -126,4 +134,8 @@ h5
     font-family: 'Patrick Hand', cursive;
     color: goldenrod; 
        
+}
+#skill{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
 }
