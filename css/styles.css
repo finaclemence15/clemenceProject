@@ -12,7 +12,7 @@ body{min-height:200vh;}
 .navbar-dark.scrolled{
   background:#000;
 }
-#hd1, i{
+#hd1,i{
     text-align: center;
     color: whitesmoke; 
     /* opacity: 0.7; */
@@ -22,7 +22,7 @@ body{min-height:200vh;}
 h2{
     text-align: center;
     color: goldenrod;
-    /* opacity: 0.7; */
+    opacity: 0.7;
     font-family: 'Patrick Hand', cursive;
     font-size: 50px;
 }
